@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+    <title>ToDo List</title>
+  </head>
+  <body>
+    <header id="todo-header">
+      <h1>ToDo List</h1>
+    </header>
+    <main id="container">
+      <!-- criar nova tarefa -->
+      <div id="top-bar">
+        <section id="add-task">
+          <input type="text" id="task-input" placeholder="nova tarefa..." />
+        </section>
+        <section id="task-counters">
+          <p class="all">Total: <span class="total-tasks"></span></p>
+          <p class="pending">Pendentes</p>
+          <p class="completed">Concluidas</p>
+        </section>
+      </div>
+
+      <!-- sessão de tarefas -->
+      <section id="task-list">
+        <ul id="task-ul"></ul>
+      </section>
+    </main>
+  </body>
+</html>
